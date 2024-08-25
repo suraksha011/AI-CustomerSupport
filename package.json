@@ -1,0 +1,37 @@
+{
+  "name": "ai-customer-support",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "node migrate.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "^0.0.13",
+    "@ai-sdk/google": "^0.0.35",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@google/generative-ai": "^0.16.0",
+    "@kinde-oss/kinde-auth-nextjs": "^2.3.6",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.6",
+    "@nanostores/react": "github:ai/react",
+    "ai": "^3.3.5",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.33.0",
+    "next": "14.2.5",
+    "openai": "^4.55.1",
+    "postgres": "^3.4.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.24.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
